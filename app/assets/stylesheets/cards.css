@@ -1,0 +1,51 @@
+body {
+  background: #339900;
+  background: url(joker.jpg);
+  opacity: 0.5;
+}
+span { display: block; }
+.red {
+   color: #cc0033;
+}
+.green {
+  color: #006400;
+}
+.purple {
+  color: #800080;
+}
+.blue {
+  color: #87CEFA;
+}
+
+#back {
+  background: url(back.jpg);
+  opacity: 2.5;
+}
+
+.outline{ width: 110px; text-align: center; padding: 10px; margin: 10px; background: #FFF; }
+.top{ text-align: left; }
+.bottom{ text-align: right; }
+
+.shadow{ box-shadow: 1px 1px 3px #000; -moz-box-shadow: 1px 1px 3px #000; -webkit-box-shadow: 1px 1px 3px #000; }
+.rounded{ border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; }
+
+div#memory_board{
+	background:#CCC;
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+}
+div#memory_board > div{
+	background: url(tile_bg.jpg) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}

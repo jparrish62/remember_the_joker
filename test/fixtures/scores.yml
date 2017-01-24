@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  score: 1
+  high_score: 1
+  streak: 1
+
+two:
+  name: MyString
+  score: 1
+  high_score: 1
+  streak: 1
